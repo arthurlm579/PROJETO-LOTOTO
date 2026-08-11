@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 66ed90135e6e46446af8a2e38db1602a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4838243319352250056
+    second: "Anima\xE7\xE3o_attackEnemy_0"
+  - first:
+      213: -8510842119282252354
+    second: "Anima\xE7\xE3o_attackEnemy_1"
+  - first:
+      213: -8529513001679227348
+    second: "Anima\xE7\xE3o_attackEnemy_2"
+  - first:
+      213: 6210059718341221310
+    second: "Anima\xE7\xE3o_attackEnemy_3"
+  - first:
+      213: -1336932338678981612
+    second: "Anima\xE7\xE3o_attackEnemy_4"
+  - first:
+      213: 2531809872963019275
+    second: "Anima\xE7\xE3o_attackEnemy_5"
+  - first:
+      213: -5681556192263486665
+    second: "Anima\xE7\xE3o_attackEnemy_6"
+  - first:
+      213: -182461632617214461
+    second: "Anima\xE7\xE3o_attackEnemy_7"
+  - first:
+      213: -8735774386873161986
+    second: "Anima\xE7\xE3o_attackEnemy_8"
+  - first:
+      213: -7437933475124836511
+    second: "Anima\xE7\xE3o_attackEnemy_9"
+  - first:
+      213: 7716115589940086310
+    second: "Anima\xE7\xE3o_attackEnemy_10"
+  - first:
+      213: 6847872322387827024
+    second: "Anima\xE7\xE3o_attackEnemy_11"
+  - first:
+      213: -7226513366780273262
+    second: "Anima\xE7\xE3o_attackEnemy_12"
+  - first:
+      213: 4812613850673427058
+    second: "Anima\xE7\xE3o_attackEnemy_13"
+  - first:
+      213: -2151368548014602309
+    second: "Anima\xE7\xE3o_attackEnemy_14"
+  - first:
+      213: -6173161134457534080
+    second: "Anima\xE7\xE3o_attackEnemy_15"
+  - first:
+      213: -5397382646687752116
+    second: "Anima\xE7\xE3o_attackEnemy_16"
+  - first:
+      213: 1699635035883533721
+    second: "Anima\xE7\xE3o_attackEnemy_17"
+  - first:
+      213: -4901719266987616633
+    second: "Anima\xE7\xE3o_attackEnemy_18"
+  - first:
+      213: -5539700214017731837
+    second: "Anima\xE7\xE3o_attackEnemy_19"
+  - first:
+      213: 1858293089210760555
+    second: "Anima\xE7\xE3o_attackEnemy_20"
+  - first:
+      213: -576735731055401476
+    second: "Anima\xE7\xE3o_attackEnemy_21"
+  - first:
+      213: -832636899380108071
+    second: "Anima\xE7\xE3o_attackEnemy_22"
+  - first:
+      213: 8197157501939103241
+    second: "Anima\xE7\xE3o_attackEnemy_23"
+  - first:
+      213: 4254475809724101620
+    second: "Anima\xE7\xE3o_attackEnemy_24"
+  - first:
+      213: 4333205533987704963
+    second: "Anima\xE7\xE3o_attackEnemy_25"
+  - first:
+      213: -7538174467531683110
+    second: "Anima\xE7\xE3o_attackEnemy_26"
+  - first:
+      213: -6771181796505887976
+    second: "Anima\xE7\xE3o_attackEnemy_27"
+  - first:
+      213: 3614366313722472531
+    second: "Anima\xE7\xE3o_attackEnemy_28"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 98
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_0"
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 3212
+        width: 206
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8313a1dc55b1bdcb0800000000000000
+      internalID: -4838243319352250056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_1"
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 3205
+        width: 215
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5afb45f2a63e980800000000000000
+      internalID: -8510842119282252354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_2"
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 3201
+        width: 233
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2675d3cd1511a980800000000000000
+      internalID: -8529513001679227348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_3"
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 3200
+        width: 234
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbd0b959609e2650800000000000000
+      internalID: 6210059718341221310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_4"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2751
+        width: 229
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c9e401f13427de0800000000000000
+      internalID: -1336932338678981612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_5"
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 2752
+        width: 229
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02a9c45aabc22320800000000000000
+      internalID: 2531809872963019275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_6"
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 2752
+        width: 225
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733c6bccebe0721b0800000000000000
+      internalID: -5681556192263486665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_7"
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 2752
+        width: 208
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e86b2ac14c77df0800000000000000
+      internalID: -182461632617214461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_8"
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2305
+        width: 233
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef62870ba7b44c680800000000000000
+      internalID: -8735774386873161986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_9"
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 2306
+        width: 244
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167823889e627c890800000000000000
+      internalID: -7437933475124836511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_10"
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 2307
+        width: 161
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6268b305f36251b60800000000000000
+      internalID: 7716115589940086310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_11"
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2308
+        width: 122
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059d72b7897880f50800000000000000
+      internalID: 6847872322387827024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_12"
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1862
+        width: 177
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d1370716446bb90800000000000000
+      internalID: -7226513366780273262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_13"
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1862
+        width: 177
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272b3828cc6d9c240800000000000000
+      internalID: 4812613850673427058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_14"
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1861
+        width: 170
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb744aa34bdc422e0800000000000000
+      internalID: -2151368548014602309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_15"
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 1860
+        width: 186
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089496fa7a6845aa0800000000000000
+      internalID: -6173161134457534080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_16"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1413
+        width: 161
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40a1535415a815b0800000000000000
+      internalID: -5397382646687752116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_17"
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1413
+        width: 111
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99575a16f01569710800000000000000
+      internalID: 1699635035883533721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_18"
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1414
+        width: 109
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786d38e0c4899fbb0800000000000000
+      internalID: -4901719266987616633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_19"
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 1415
+        width: 171
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303515581080f13b0800000000000000
+      internalID: -5539700214017731837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_20"
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 965
+        width: 215
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d78fe08bbf9c910800000000000000
+      internalID: 1858293089210760555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_21"
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 962
+        width: 229
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5ea2588e50ff7f0800000000000000
+      internalID: -576735731055401476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_22"
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 961
+        width: 228
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4e099c621e174f0800000000000000
+      internalID: -832636899380108071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_23"
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 960
+        width: 232
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906320f415722c170800000000000000
+      internalID: 8197157501939103241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_24"
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 512
+        width: 231
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3f810353fea0b30800000000000000
+      internalID: 4254475809724101620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_25"
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 512
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38018109973a22c30800000000000000
+      internalID: 4333205533987704963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_26"
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 512
+        width: 238
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adacadfb246036790800000000000000
+      internalID: -7538174467531683110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_27"
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 516
+        width: 217
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bdca5080ee702a0800000000000000
+      internalID: -6771181796505887976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attackEnemy_28"
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 75
+        width: 205
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358e099330fc82230800000000000000
+      internalID: 3614366313722472531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Anima\xE7\xE3o_attackEnemy_0": -4838243319352250056
+      "Anima\xE7\xE3o_attackEnemy_1": -8510842119282252354
+      "Anima\xE7\xE3o_attackEnemy_10": 7716115589940086310
+      "Anima\xE7\xE3o_attackEnemy_11": 6847872322387827024
+      "Anima\xE7\xE3o_attackEnemy_12": -7226513366780273262
+      "Anima\xE7\xE3o_attackEnemy_13": 4812613850673427058
+      "Anima\xE7\xE3o_attackEnemy_14": -2151368548014602309
+      "Anima\xE7\xE3o_attackEnemy_15": -6173161134457534080
+      "Anima\xE7\xE3o_attackEnemy_16": -5397382646687752116
+      "Anima\xE7\xE3o_attackEnemy_17": 1699635035883533721
+      "Anima\xE7\xE3o_attackEnemy_18": -4901719266987616633
+      "Anima\xE7\xE3o_attackEnemy_19": -5539700214017731837
+      "Anima\xE7\xE3o_attackEnemy_2": -8529513001679227348
+      "Anima\xE7\xE3o_attackEnemy_20": 1858293089210760555
+      "Anima\xE7\xE3o_attackEnemy_21": -576735731055401476
+      "Anima\xE7\xE3o_attackEnemy_22": -832636899380108071
+      "Anima\xE7\xE3o_attackEnemy_23": 8197157501939103241
+      "Anima\xE7\xE3o_attackEnemy_24": 4254475809724101620
+      "Anima\xE7\xE3o_attackEnemy_25": 4333205533987704963
+      "Anima\xE7\xE3o_attackEnemy_26": -7538174467531683110
+      "Anima\xE7\xE3o_attackEnemy_27": -6771181796505887976
+      "Anima\xE7\xE3o_attackEnemy_28": 3614366313722472531
+      "Anima\xE7\xE3o_attackEnemy_3": 6210059718341221310
+      "Anima\xE7\xE3o_attackEnemy_4": -1336932338678981612
+      "Anima\xE7\xE3o_attackEnemy_5": 2531809872963019275
+      "Anima\xE7\xE3o_attackEnemy_6": -5681556192263486665
+      "Anima\xE7\xE3o_attackEnemy_7": -182461632617214461
+      "Anima\xE7\xE3o_attackEnemy_8": -8735774386873161986
+      "Anima\xE7\xE3o_attackEnemy_9": -7437933475124836511
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

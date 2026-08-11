@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("=== Habilidades Avançadas ===")]
     public int maxDoubleJumps = 1;
-    public float wallJumpForce = 9.5f;          // Força horizontal do wall jump
+    public float wallJumpForce = 9.5f;
     public LayerMask wallLayer;
 
     [Header("=== Stamina ===")]
@@ -23,8 +23,8 @@ public class PlayerController : MonoBehaviour
 
     // Componentes
     private CharacterController controller;
-    private LiminalFirstPersonCamera fpCamera;
-    private PlayerStateDetector stateDetector;   // Usando o detector que você pediu
+    private FirstPersonHumanCamera fpCamera;
+    private PlayerStateDetector stateDetector;
 
     // Variáveis internas
     private Vector3 velocity;
@@ -32,22 +32,47 @@ public class PlayerController : MonoBehaviour
     private int doubleJumpCount = 0;
     private float currentStamina;
     private bool isSprinting = false;
+    private bool isMovementLocked = false;
+    private float currentSpeed01 = 0f;
 
-    // Variável para controlar o wall jump (evita conflito infinito)
+    // Variável para controlar o wall jump
     private float wallJumpTimer = 0f;
-    private const float wallJumpLockTime = 0.35f;   // Tempo que o player fica "travado" no impulso (ajuste se precisar)
+    private const float wallJumpLockTime = 0.35f;
+
+    // === PROPRIEDADES PÚBLICAS REQUERIDAS PELA CÂMERA ===
+    public float CurrentSpeed01 => currentSpeed01;
+    public bool IsRunning => isSprinting && currentSpeed01 > 0.1f;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        fpCamera = Camera.main.GetComponent<LiminalFirstPersonCamera>();
-        stateDetector = GetComponent<PlayerStateDetector>();
 
+        // 1ª Tentativa: Busca pela tag MainCamera
+        if (Camera.main != null)
+        {
+            fpCamera = Camera.main.GetComponent<FirstPersonHumanCamera>();
+        }
+
+        // 2ª Tentativa: Se ainda for nulo, procura nos filhos deste objeto
+        if (fpCamera == null)
+        {
+            fpCamera = GetComponentInChildren<FirstPersonHumanCamera>();
+        }
+
+        stateDetector = GetComponent<PlayerStateDetector>();
         currentStamina = maxStamina;
     }
 
     void Update()
     {
+        if (isMovementLocked)
+        {
+            velocity = Vector3.zero;
+            isSprinting = false;
+            currentSpeed01 = 0f;
+            return;
+        }
+
         HandleGroundCheck();
         HandleStamina();
         HandleMovement();
@@ -57,7 +82,6 @@ public class PlayerController : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        // Timer do wall jump (diminui o lock)
         if (wallJumpTimer > 0)
             wallJumpTimer -= Time.deltaTime;
     }
@@ -70,20 +94,20 @@ public class PlayerController : MonoBehaviour
         {
             velocity.y = -2f;
             doubleJumpCount = 0;
-            wallJumpTimer = 0f;           // Reseta o lock ao tocar o chão
+            wallJumpTimer = 0f;
         }
     }
 
     private void HandleMovement()
     {
-        // Durante o wall jump, não permite input horizontal (evita conflito)
         if (wallJumpTimer > 0) return;
 
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
-        Vector3 forward = fpCamera.transform.forward;
-        Vector3 right = fpCamera.transform.right;
+        // Se mesmo após as tentativas a câmera não existir, usamos a direção do próprio Player para não travar o movimento
+        Vector3 forward = fpCamera != null ? fpCamera.transform.forward : transform.forward;
+        Vector3 right = fpCamera != null ? fpCamera.transform.right : transform.right;
 
         forward.y = 0f;
         right.y = 0f;
@@ -92,7 +116,9 @@ public class PlayerController : MonoBehaviour
 
         Vector3 moveDirection = (forward * vertical + right * horizontal).normalized;
 
-        isSprinting = Input.GetKey(KeyCode.LeftShift) && currentStamina > 5f && moveDirection.magnitude > 0.1f;
+        currentSpeed01 = moveDirection.magnitude;
+
+        isSprinting = Input.GetKey(KeyCode.LeftShift) && currentStamina > 5f && currentSpeed01 > 0.1f;
 
         float currentSpeed = isSprinting ? sprintSpeed : walkSpeed;
 
@@ -105,28 +131,24 @@ public class PlayerController : MonoBehaviour
 
         if (isGrounded)
         {
-            // Pulo normal
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             doubleJumpCount = 0;
         }
         else if (doubleJumpCount < maxDoubleJumps)
         {
-            // Double Jump
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity) * 0.92f;
             doubleJumpCount++;
         }
         else if (stateDetector != null && stateDetector.IsOnWallNow())
         {
-            // WALL JUMP - Versão corrigida
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity) * 1.15f;
 
-            // Empurra forte para longe da parede (usando direção da câmera)
-            Vector3 awayFromWall = -fpCamera.transform.forward;
+            Vector3 awayFromWall = fpCamera != null ? -fpCamera.transform.forward : -transform.forward;
             velocity.x = awayFromWall.x * wallJumpForce;
             velocity.z = awayFromWall.z * wallJumpForce;
 
-            wallJumpTimer = wallJumpLockTime;   // Ativa o lock para não conflitar com input
-            doubleJumpCount = 0;                // Reseta double jump após wall jump
+            wallJumpTimer = wallJumpLockTime;
+            doubleJumpCount = 0;
         }
     }
 
@@ -143,7 +165,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Funções públicas
+    // === FUNÇÕES PÚBLICAS ===
+    public void SetMovementLocked(bool locked)
+    {
+        isMovementLocked = locked;
+    }
+
     public void RestoreStamina(float amount)
     {
         currentStamina = Mathf.Min(maxStamina, currentStamina + amount);

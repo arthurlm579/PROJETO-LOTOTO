@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 80d3decd0b8311f4e94965eb2cbc88f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4694017380454851387
+    second: "Anima\xE7\xE3o move2_0"
+  - first:
+      213: -5050071127565331500
+    second: "Anima\xE7\xE3o move2_1"
+  - first:
+      213: -3458547669035978293
+    second: "Anima\xE7\xE3o move2_2"
+  - first:
+      213: -1332048665099255583
+    second: "Anima\xE7\xE3o move2_3"
+  - first:
+      213: -5963652660066889440
+    second: "Anima\xE7\xE3o move2_4"
+  - first:
+      213: -7413068362905572501
+    second: "Anima\xE7\xE3o move2_5"
+  - first:
+      213: 893273872615221866
+    second: "Anima\xE7\xE3o move2_6"
+  - first:
+      213: 5110339938596008338
+    second: "Anima\xE7\xE3o move2_7"
+  - first:
+      213: 7736998342057498342
+    second: "Anima\xE7\xE3o move2_8"
+  - first:
+      213: -1060965356924334522
+    second: "Anima\xE7\xE3o move2_9"
+  - first:
+      213: 1034066597006722934
+    second: "Anima\xE7\xE3o move2_10"
+  - first:
+      213: 4827497317655103291
+    second: "Anima\xE7\xE3o move2_11"
+  - first:
+      213: 7012806481245484098
+    second: "Anima\xE7\xE3o move2_12"
+  - first:
+      213: 7745835438698145587
+    second: "Anima\xE7\xE3o move2_13"
+  - first:
+      213: -3178906951523172252
+    second: "Anima\xE7\xE3o move2_14"
+  - first:
+      213: -2577478129024500665
+    second: "Anima\xE7\xE3o move2_15"
+  - first:
+      213: 338193442926590505
+    second: "Anima\xE7\xE3o move2_16"
+  - first:
+      213: -636588733066604040
+    second: "Anima\xE7\xE3o move2_17"
+  - first:
+      213: 542039190490275882
+    second: "Anima\xE7\xE3o move2_18"
+  - first:
+      213: -8001819281034527176
+    second: "Anima\xE7\xE3o move2_19"
+  - first:
+      213: -1895101514836617644
+    second: "Anima\xE7\xE3o move2_20"
+  - first:
+      213: 4427857225720765060
+    second: "Anima\xE7\xE3o move2_21"
+  - first:
+      213: -8211704649796072615
+    second: "Anima\xE7\xE3o move2_22"
+  - first:
+      213: -1658127186864590489
+    second: "Anima\xE7\xE3o move2_23"
+  - first:
+      213: -6409655126752389531
+    second: "Anima\xE7\xE3o move2_24"
+  - first:
+      213: 3377134895253019380
+    second: "Anima\xE7\xE3o move2_25"
+  - first:
+      213: 4945568890943064364
+    second: "Anima\xE7\xE3o move2_26"
+  - first:
+      213: -2813837443939934803
+    second: "Anima\xE7\xE3o move2_27"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_0"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2764
+        width: 221
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc9a7cff008bdeb0800000000000000
+      internalID: -4694017380454851387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_1"
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 2765
+        width: 222
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3130fd01b8ae9b0800000000000000
+      internalID: -5050071127565331500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_2"
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 2768
+        width: 224
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1fa5c1835c000d0800000000000000
+      internalID: -3458547669035978293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_3"
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 2768
+        width: 224
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0c93debcc938de0800000000000000
+      internalID: -1332048665099255583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_4"
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2318
+        width: 226
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02156e0a089dc3da0800000000000000
+      internalID: -5963652660066889440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_5"
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2313
+        width: 228
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ba35d999d7f1990800000000000000
+      internalID: -7413068362905572501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_6"
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2305
+        width: 229
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a2e58badb856c00800000000000000
+      internalID: 893273872615221866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_7"
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 2302
+        width: 227
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291b18139139be640800000000000000
+      internalID: 5110339938596008338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_8"
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1852
+        width: 219
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e69f1eeff65f5b60800000000000000
+      internalID: 7736998342057498342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_9"
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1850
+        width: 217
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e878d01a1b641f0800000000000000
+      internalID: -1060965356924334522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_10"
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1850
+        width: 232
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677ceac571eb95e00800000000000000
+      internalID: 1034066597006722934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_11"
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 1856
+        width: 249
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37cbf4bb37bef240800000000000000
+      internalID: 4827497317655103291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_12"
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1416
+        width: 260
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244b139d65e725160800000000000000
+      internalID: 7012806481245484098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_13"
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1422
+        width: 268
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3372c34da4cbe7b60800000000000000
+      internalID: 7745835438698145587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_14"
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1422
+        width: 274
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460017c58f042e3d0800000000000000
+      internalID: -3178906951523172252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_15"
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 1426
+        width: 278
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cf7273c45fa3cd0800000000000000
+      internalID: -2577478129024500665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_16"
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 982
+        width: 279
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a710ff42181b400800000000000000
+      internalID: 338193442926590505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_17"
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 983
+        width: 278
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f19c898be16a27f0800000000000000
+      internalID: -636588733066604040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_18"
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 980
+        width: 274
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20638b95c5b58700800000000000000
+      internalID: 542039190490275882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_19"
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 974
+        width: 267
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83eb01562c3d3f090800000000000000
+      internalID: -8001819281034527176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_20"
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 522
+        width: 264
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456dbd2863f33b5e0800000000000000
+      internalID: -1895101514836617644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_21"
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 515
+        width: 256
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a9b3fdfa8e27d30800000000000000
+      internalID: 4427857225720765060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_22"
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 512
+        width: 240
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b4b74e02a2a0e80800000000000000
+      internalID: -8211704649796072615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_23"
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 508
+        width: 220
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761b482db162df8e0800000000000000
+      internalID: -1658127186864590489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_24"
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 59
+        width: 212
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566992d3f945c07a0800000000000000
+      internalID: -6409655126752389531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_25"
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 61
+        width: 210
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fad12e5b4efdde20800000000000000
+      internalID: 3377134895253019380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_26"
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 69
+        width: 215
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2942ec14b032a440800000000000000
+      internalID: 4945568890943064364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o move2_27"
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 75
+        width: 219
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad544ac0cd33f8d0800000000000000
+      internalID: -2813837443939934803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Anima\xE7\xE3o move2_0": -4694017380454851387
+      "Anima\xE7\xE3o move2_1": -5050071127565331500
+      "Anima\xE7\xE3o move2_10": 1034066597006722934
+      "Anima\xE7\xE3o move2_11": 4827497317655103291
+      "Anima\xE7\xE3o move2_12": 7012806481245484098
+      "Anima\xE7\xE3o move2_13": 7745835438698145587
+      "Anima\xE7\xE3o move2_14": -3178906951523172252
+      "Anima\xE7\xE3o move2_15": -2577478129024500665
+      "Anima\xE7\xE3o move2_16": 338193442926590505
+      "Anima\xE7\xE3o move2_17": -636588733066604040
+      "Anima\xE7\xE3o move2_18": 542039190490275882
+      "Anima\xE7\xE3o move2_19": -8001819281034527176
+      "Anima\xE7\xE3o move2_2": -3458547669035978293
+      "Anima\xE7\xE3o move2_20": -1895101514836617644
+      "Anima\xE7\xE3o move2_21": 4427857225720765060
+      "Anima\xE7\xE3o move2_22": -8211704649796072615
+      "Anima\xE7\xE3o move2_23": -1658127186864590489
+      "Anima\xE7\xE3o move2_24": -6409655126752389531
+      "Anima\xE7\xE3o move2_25": 3377134895253019380
+      "Anima\xE7\xE3o move2_26": 4945568890943064364
+      "Anima\xE7\xE3o move2_27": -2813837443939934803
+      "Anima\xE7\xE3o move2_3": -1332048665099255583
+      "Anima\xE7\xE3o move2_4": -5963652660066889440
+      "Anima\xE7\xE3o move2_5": -7413068362905572501
+      "Anima\xE7\xE3o move2_6": 893273872615221866
+      "Anima\xE7\xE3o move2_7": 5110339938596008338
+      "Anima\xE7\xE3o move2_8": 7736998342057498342
+      "Anima\xE7\xE3o move2_9": -1060965356924334522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 2c52db2e0157c6a4e9f47b536b396901
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2541724419234912343
+    second: "Anima\xE7\xE3o jump_0"
+  - first:
+      213: 2293636185657464569
+    second: "Anima\xE7\xE3o jump_1"
+  - first:
+      213: -8019420094455443242
+    second: "Anima\xE7\xE3o jump_2"
+  - first:
+      213: -8909372437124034166
+    second: "Anima\xE7\xE3o jump_3"
+  - first:
+      213: 6782521316941498889
+    second: "Anima\xE7\xE3o jump_4"
+  - first:
+      213: -5743740649903766026
+    second: "Anima\xE7\xE3o jump_5"
+  - first:
+      213: -3208459878699398184
+    second: "Anima\xE7\xE3o jump_6"
+  - first:
+      213: -3623876688899987654
+    second: "Anima\xE7\xE3o jump_7"
+  - first:
+      213: -574908189030586923
+    second: "Anima\xE7\xE3o jump_8"
+  - first:
+      213: 6219282109475577012
+    second: "Anima\xE7\xE3o jump_9"
+  - first:
+      213: 1818714816929370029
+    second: "Anima\xE7\xE3o jump_10"
+  - first:
+      213: -6253210823480714453
+    second: "Anima\xE7\xE3o jump_11"
+  - first:
+      213: -3120063943971143460
+    second: "Anima\xE7\xE3o jump_12"
+  - first:
+      213: -3542702773144895129
+    second: "Anima\xE7\xE3o jump_13"
+  - first:
+      213: 5962751677121302650
+    second: "Anima\xE7\xE3o jump_14"
+  - first:
+      213: 1095622861986353970
+    second: "Anima\xE7\xE3o jump_15"
+  - first:
+      213: 2433521388556408462
+    second: "Anima\xE7\xE3o jump_16"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_0"
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1849
+        width: 130
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7219a7b1bf9bcd0800000000000000
+      internalID: -2541724419234912343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_1"
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1848
+        width: 130
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6581a65f1a4df10800000000000000
+      internalID: 2293636185657464569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_2"
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 1845
+        width: 145
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d09a5da9eb45b090800000000000000
+      internalID: -8019420094455443242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_3"
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 1864
+        width: 143
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81d099e8fc8b5480800000000000000
+      internalID: -8909372437124034166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_4"
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1416
+        width: 143
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a00d1d33b502e50800000000000000
+      internalID: 6782521316941498889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_5"
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1406
+        width: 141
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5c3808f422a40b0800000000000000
+      internalID: -5743740649903766026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_6"
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1401
+        width: 134
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db870e4db24973d0800000000000000
+      internalID: -3208459878699398184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_7"
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 1401
+        width: 134
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a372c400a5765bdc0800000000000000
+      internalID: -3623876688899987654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_8"
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 970
+        width: 142
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d56e5e4c048508f0800000000000000
+      internalID: -574908189030586923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_9"
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1021
+        width: 152
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcdb3d90245f4650800000000000000
+      internalID: 6219282109475577012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_10"
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1021
+        width: 152
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf80d27d7f5d3910800000000000000
+      internalID: 1818714816929370029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_11"
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 1041
+        width: 161
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bddc013e12839a0800000000000000
+      internalID: -6253210823480714453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_12"
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 593
+        width: 162
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0881faf5e43b4d0800000000000000
+      internalID: -3120063943971143460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_13"
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 529
+        width: 147
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76148ed099ac5dec0800000000000000
+      internalID: -3542702773144895129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_14"
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 530
+        width: 145
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a701eaeee03ffb250800000000000000
+      internalID: 5962751677121302650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_15"
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 502
+        width: 144
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2335e78203f643f00800000000000000
+      internalID: 1095622861986353970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o jump_16"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 56
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86583e3fca95c120800000000000000
+      internalID: 2433521388556408462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Anima\xE7\xE3o jump_0": -2541724419234912343
+      "Anima\xE7\xE3o jump_1": 2293636185657464569
+      "Anima\xE7\xE3o jump_10": 1818714816929370029
+      "Anima\xE7\xE3o jump_11": -6253210823480714453
+      "Anima\xE7\xE3o jump_12": -3120063943971143460
+      "Anima\xE7\xE3o jump_13": -3542702773144895129
+      "Anima\xE7\xE3o jump_14": 5962751677121302650
+      "Anima\xE7\xE3o jump_15": 1095622861986353970
+      "Anima\xE7\xE3o jump_16": 2433521388556408462
+      "Anima\xE7\xE3o jump_2": -8019420094455443242
+      "Anima\xE7\xE3o jump_3": -8909372437124034166
+      "Anima\xE7\xE3o jump_4": 6782521316941498889
+      "Anima\xE7\xE3o jump_5": -5743740649903766026
+      "Anima\xE7\xE3o jump_6": -3208459878699398184
+      "Anima\xE7\xE3o jump_7": -3623876688899987654
+      "Anima\xE7\xE3o jump_8": -574908189030586923
+      "Anima\xE7\xE3o jump_9": 6219282109475577012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 075c9597cab0d744db4679b008a45563
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8846024954623252853
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_0"
+  - first:
+      213: -2477599824517640572
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_1"
+  - first:
+      213: -7669725183283640431
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_2"
+  - first:
+      213: -7870747318044572934
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_3"
+  - first:
+      213: -2720807769561110281
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_4"
+  - first:
+      213: -3566606268316456353
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_5"
+  - first:
+      213: 4522571926687105667
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_6"
+  - first:
+      213: -2063537403525426373
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_7"
+  - first:
+      213: 8543383689822280914
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_8"
+  - first:
+      213: 7740468508918077281
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_9"
+  - first:
+      213: -892672297832625926
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_10"
+  - first:
+      213: 8698225898217140500
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_11"
+  - first:
+      213: 7373059276622611453
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_12"
+  - first:
+      213: -2900829815743732832
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_13"
+  - first:
+      213: 2302885950618740909
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_14"
+  - first:
+      213: -4737812329750524969
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_15"
+  - first:
+      213: -7592548311204143575
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_16"
+  - first:
+      213: -4332656203563341784
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_17"
+  - first:
+      213: 1184191170617087443
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_18"
+  - first:
+      213: 3583323770804700388
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_19"
+  - first:
+      213: -4749203480275355586
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_20"
+  - first:
+      213: 4090984568116763819
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_21"
+  - first:
+      213: 2942133664326683329
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_22"
+  - first:
+      213: -5502422639628025603
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_23"
+  - first:
+      213: 3844984397896505303
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_24"
+  - first:
+      213: 7934584032382152204
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_25"
+  - first:
+      213: 5298479809142440579
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_26"
+  - first:
+      213: 7419608674411548531
+    second: "Anima\xE7\xE3o_walkEnemy2 (1)_27"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_0"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2773
+        width: 147
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5795f86f3d463ca70800000000000000
+      internalID: 8846024954623252853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 2772
+        width: 148
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e4e04261ccd9dd0800000000000000
+      internalID: -2477599824517640572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 2771
+        width: 149
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197c28de499af8590800000000000000
+      internalID: -7669725183283640431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_3"
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 2771
+        width: 150
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af24817e30d75c290800000000000000
+      internalID: -7870747318044572934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_4"
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2323
+        width: 152
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8ef21cfbfbd3ad0800000000000000
+      internalID: -2720807769561110281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_5"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2324
+        width: 153
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ae053ee7ed08ec0800000000000000
+      internalID: -3566606268316456353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_6"
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 2325
+        width: 155
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382c659a43763ce30800000000000000
+      internalID: 4522571926687105667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_7"
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2325
+        width: 168
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3392222aa7dc53e0800000000000000
+      internalID: -2063537403525426373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_8"
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1877
+        width: 182
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc19bb7332309670800000000000000
+      internalID: 8543383689822280914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_9"
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1877
+        width: 191
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167d82d191bab6b60800000000000000
+      internalID: 7740468508918077281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_10"
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1877
+        width: 197
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8cad256479c93f0800000000000000
+      internalID: -892672297832625926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_11"
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 1877
+        width: 197
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411f5578e5e46b870800000000000000
+      internalID: 8698225898217140500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_12"
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1429
+        width: 191
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df34df2195e525660800000000000000
+      internalID: 7373059276622611453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_13"
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1429
+        width: 181
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3abbed6ae2eb7d0800000000000000
+      internalID: -2900829815743732832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_14"
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1428
+        width: 167
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da82ed4229e75ff10800000000000000
+      internalID: 2302885950618740909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_15"
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1429
+        width: 153
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db01c0c9c8ef3eb0800000000000000
+      internalID: -4737812329750524969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_16"
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 981
+        width: 152
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e5faab989d1a690800000000000000
+      internalID: -7592548311204143575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_17"
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 980
+        width: 150
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828e6b463205fd3c0800000000000000
+      internalID: -4332656203563341784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_18"
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 980
+        width: 149
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d519c678971f6010800000000000000
+      internalID: 1184191170617087443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_19"
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 980
+        width: 148
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4070afbf58ab130800000000000000
+      internalID: 3583323770804700388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_20"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 532
+        width: 147
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e387328d890771eb0800000000000000
+      internalID: -4749203480275355586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_21"
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 532
+        width: 150
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac543c2ac816c830800000000000000
+      internalID: 4090984568116763819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_22"
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 532
+        width: 160
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca09e7cafe84d820800000000000000
+      internalID: 2942133664326683329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_23"
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 533
+        width: 166
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df087e823c773a3b0800000000000000
+      internalID: -5502422639628025603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_24"
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 85
+        width: 171
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d75a8330f02c5530800000000000000
+      internalID: 3844984397896505303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_25"
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 85
+        width: 170
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eef92632e4d1e60800000000000000
+      internalID: 7934584032382152204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_26"
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 85
+        width: 162
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382c389505bf78940800000000000000
+      internalID: 5298479809142440579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_walkEnemy2 (1)_27"
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 85
+        width: 151
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f05b257ceb7f660800000000000000
+      internalID: 7419608674411548531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Anima\xE7\xE3o_walkEnemy2 (1)_0": 8846024954623252853
+      "Anima\xE7\xE3o_walkEnemy2 (1)_1": -2477599824517640572
+      "Anima\xE7\xE3o_walkEnemy2 (1)_10": -892672297832625926
+      "Anima\xE7\xE3o_walkEnemy2 (1)_11": 8698225898217140500
+      "Anima\xE7\xE3o_walkEnemy2 (1)_12": 7373059276622611453
+      "Anima\xE7\xE3o_walkEnemy2 (1)_13": -2900829815743732832
+      "Anima\xE7\xE3o_walkEnemy2 (1)_14": 2302885950618740909
+      "Anima\xE7\xE3o_walkEnemy2 (1)_15": -4737812329750524969
+      "Anima\xE7\xE3o_walkEnemy2 (1)_16": -7592548311204143575
+      "Anima\xE7\xE3o_walkEnemy2 (1)_17": -4332656203563341784
+      "Anima\xE7\xE3o_walkEnemy2 (1)_18": 1184191170617087443
+      "Anima\xE7\xE3o_walkEnemy2 (1)_19": 3583323770804700388
+      "Anima\xE7\xE3o_walkEnemy2 (1)_2": -7669725183283640431
+      "Anima\xE7\xE3o_walkEnemy2 (1)_20": -4749203480275355586
+      "Anima\xE7\xE3o_walkEnemy2 (1)_21": 4090984568116763819
+      "Anima\xE7\xE3o_walkEnemy2 (1)_22": 2942133664326683329
+      "Anima\xE7\xE3o_walkEnemy2 (1)_23": -5502422639628025603
+      "Anima\xE7\xE3o_walkEnemy2 (1)_24": 3844984397896505303
+      "Anima\xE7\xE3o_walkEnemy2 (1)_25": 7934584032382152204
+      "Anima\xE7\xE3o_walkEnemy2 (1)_26": 5298479809142440579
+      "Anima\xE7\xE3o_walkEnemy2 (1)_27": 7419608674411548531
+      "Anima\xE7\xE3o_walkEnemy2 (1)_3": -7870747318044572934
+      "Anima\xE7\xE3o_walkEnemy2 (1)_4": -2720807769561110281
+      "Anima\xE7\xE3o_walkEnemy2 (1)_5": -3566606268316456353
+      "Anima\xE7\xE3o_walkEnemy2 (1)_6": 4522571926687105667
+      "Anima\xE7\xE3o_walkEnemy2 (1)_7": -2063537403525426373
+      "Anima\xE7\xE3o_walkEnemy2 (1)_8": 8543383689822280914
+      "Anima\xE7\xE3o_walkEnemy2 (1)_9": 7740468508918077281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

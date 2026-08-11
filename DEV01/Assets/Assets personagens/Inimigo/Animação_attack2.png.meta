@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 115cba6ce6f9eb0449a8fb9a988efa3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1043722249106077782
+    second: "Anima\xE7\xE3o_attack2_0"
+  - first:
+      213: 1714664800947313340
+    second: "Anima\xE7\xE3o_attack2_1"
+  - first:
+      213: 887861987137030982
+    second: "Anima\xE7\xE3o_attack2_2"
+  - first:
+      213: 8403623369005473262
+    second: "Anima\xE7\xE3o_attack2_3"
+  - first:
+      213: 746063418252699651
+    second: "Anima\xE7\xE3o_attack2_4"
+  - first:
+      213: -7570967142185005389
+    second: "Anima\xE7\xE3o_attack2_5"
+  - first:
+      213: -3789564301537803670
+    second: "Anima\xE7\xE3o_attack2_6"
+  - first:
+      213: 48689880980740321
+    second: "Anima\xE7\xE3o_attack2_7"
+  - first:
+      213: -2471871606513889564
+    second: "Anima\xE7\xE3o_attack2_8"
+  - first:
+      213: -3125750518059870302
+    second: "Anima\xE7\xE3o_attack2_9"
+  - first:
+      213: -4347564043261200729
+    second: "Anima\xE7\xE3o_attack2_10"
+  - first:
+      213: -2485906526954679435
+    second: "Anima\xE7\xE3o_attack2_11"
+  - first:
+      213: 7140898532410074991
+    second: "Anima\xE7\xE3o_attack2_12"
+  - first:
+      213: 8368299923485998227
+    second: "Anima\xE7\xE3o_attack2_13"
+  - first:
+      213: -725916955797063975
+    second: "Anima\xE7\xE3o_attack2_14"
+  - first:
+      213: 1610377668549839810
+    second: "Anima\xE7\xE3o_attack2_15"
+  - first:
+      213: 7736182979234113777
+    second: "Anima\xE7\xE3o_attack2_16"
+  - first:
+      213: -1556663491413803932
+    second: "Anima\xE7\xE3o_attack2_17"
+  - first:
+      213: -6722183061112320959
+    second: "Anima\xE7\xE3o_attack2_18"
+  - first:
+      213: -9134620030887262848
+    second: "Anima\xE7\xE3o_attack2_19"
+  - first:
+      213: 5130511003333868024
+    second: "Anima\xE7\xE3o_attack2_20"
+  - first:
+      213: 3564235848659136501
+    second: "Anima\xE7\xE3o_attack2_21"
+  - first:
+      213: 3722571313064373454
+    second: "Anima\xE7\xE3o_attack2_22"
+  - first:
+      213: -8882219081969118717
+    second: "Anima\xE7\xE3o_attack2_23"
+  - first:
+      213: 2555216942973845772
+    second: "Anima\xE7\xE3o_attack2_24"
+  - first:
+      213: 5520030560581928972
+    second: "Anima\xE7\xE3o_attack2_25"
+  - first:
+      213: 8441063606301367026
+    second: "Anima\xE7\xE3o_attack2_26"
+  - first:
+      213: 6841940222419523520
+    second: "Anima\xE7\xE3o_attack2_27"
+  - first:
+      213: 5155493647435545426
+    second: "Anima\xE7\xE3o_attack2_28"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_0"
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 3214
+        width: 159
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658b32e0bdb0c7e00800000000000000
+      internalID: 1043722249106077782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_1"
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 3208
+        width: 160
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba94514d86bbc710800000000000000
+      internalID: 1714664800947313340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_2"
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 3203
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b00e0f5c1525c00800000000000000
+      internalID: 887861987137030982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_3"
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 3201
+        width: 199
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed1eb70eeaaf9470800000000000000
+      internalID: 8403623369005473262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_4"
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2752
+        width: 200
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308add0e9bc8a5a00800000000000000
+      internalID: 746063418252699651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_5"
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2752
+        width: 198
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be88e33f758ee690800000000000000
+      internalID: -7570967142185005389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_6"
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 2753
+        width: 194
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6286518853c86bc0800000000000000
+      internalID: -3789564301537803670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_7"
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 2753
+        width: 189
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e85304503bfca000800000000000000
+      internalID: 48689880980740321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_8"
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2305
+        width: 213
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee8d53ded522bdd0800000000000000
+      internalID: -2471871606513889564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_9"
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 2306
+        width: 200
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a75c8af67a1f94d0800000000000000
+      internalID: -3125750518059870302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_10"
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2307
+        width: 121
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6b72b79895aa3c0800000000000000
+      internalID: -4347564043261200729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_11"
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 2309
+        width: 124
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5739a044f29408dd0800000000000000
+      internalID: -2485906526954679435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_12"
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1864
+        width: 202
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6729619161991360800000000000000
+      internalID: 7140898532410074991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_13"
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1865
+        width: 216
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cbf49717c222470800000000000000
+      internalID: 8368299923485998227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_14"
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1863
+        width: 141
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d67841ff560de5f0800000000000000
+      internalID: -725916955797063975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_15"
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 1863
+        width: 166
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb822815f5395610800000000000000
+      internalID: 1610377668549839810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_16"
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1416
+        width: 144
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f82caa7e617c5b60800000000000000
+      internalID: 7736182979234113777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_17"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1415
+        width: 125
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cf5775dce956ae0800000000000000
+      internalID: -1556663491413803932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_18"
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1415
+        width: 120
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c804f1f1206b2a0800000000000000
+      internalID: -6722183061112320959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_19"
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 1416
+        width: 164
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0850cccaa7f4b3180800000000000000
+      internalID: -9134620030887262848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_20"
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 967
+        width: 166
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9b2fd239c333740800000000000000
+      internalID: 5130511003333868024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_21"
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 964
+        width: 174
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff6a07ce95b67130800000000000000
+      internalID: 3564235848659136501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_22"
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 961
+        width: 189
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecce24ed2ea39a330800000000000000
+      internalID: 3722571313064373454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_23"
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 960
+        width: 198
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302d8021ec40cb480800000000000000
+      internalID: -8882219081969118717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_24"
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 512
+        width: 197
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0104028544f57320800000000000000
+      internalID: 2555216942973845772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_25"
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 512
+        width: 197
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0849c86c861b9c40800000000000000
+      internalID: 5520030560581928972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_26"
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 514
+        width: 194
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa121490aea42570800000000000000
+      internalID: 8441063606301367026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_27"
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 518
+        width: 169
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7d5c3d16473fe50800000000000000
+      internalID: 6841940222419523520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o_attack2_28"
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 78
+        width: 157
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bbd29482efb8740800000000000000
+      internalID: 5155493647435545426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Anima\xE7\xE3o_attack2_0": 1043722249106077782
+      "Anima\xE7\xE3o_attack2_1": 1714664800947313340
+      "Anima\xE7\xE3o_attack2_10": -4347564043261200729
+      "Anima\xE7\xE3o_attack2_11": -2485906526954679435
+      "Anima\xE7\xE3o_attack2_12": 7140898532410074991
+      "Anima\xE7\xE3o_attack2_13": 8368299923485998227
+      "Anima\xE7\xE3o_attack2_14": -725916955797063975
+      "Anima\xE7\xE3o_attack2_15": 1610377668549839810
+      "Anima\xE7\xE3o_attack2_16": 7736182979234113777
+      "Anima\xE7\xE3o_attack2_17": -1556663491413803932
+      "Anima\xE7\xE3o_attack2_18": -6722183061112320959
+      "Anima\xE7\xE3o_attack2_19": -9134620030887262848
+      "Anima\xE7\xE3o_attack2_2": 887861987137030982
+      "Anima\xE7\xE3o_attack2_20": 5130511003333868024
+      "Anima\xE7\xE3o_attack2_21": 3564235848659136501
+      "Anima\xE7\xE3o_attack2_22": 3722571313064373454
+      "Anima\xE7\xE3o_attack2_23": -8882219081969118717
+      "Anima\xE7\xE3o_attack2_24": 2555216942973845772
+      "Anima\xE7\xE3o_attack2_25": 5520030560581928972
+      "Anima\xE7\xE3o_attack2_26": 8441063606301367026
+      "Anima\xE7\xE3o_attack2_27": 6841940222419523520
+      "Anima\xE7\xE3o_attack2_28": 5155493647435545426
+      "Anima\xE7\xE3o_attack2_3": 8403623369005473262
+      "Anima\xE7\xE3o_attack2_4": 746063418252699651
+      "Anima\xE7\xE3o_attack2_5": -7570967142185005389
+      "Anima\xE7\xE3o_attack2_6": -3789564301537803670
+      "Anima\xE7\xE3o_attack2_7": 48689880980740321
+      "Anima\xE7\xE3o_attack2_8": -2471871606513889564
+      "Anima\xE7\xE3o_attack2_9": -3125750518059870302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

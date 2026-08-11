@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: f677fbc7913c755418430feace324c10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4219490462582825139
+    second: "Anima\xE7\xE3oHit_0"
+  - first:
+      213: -5312938297103626442
+    second: "Anima\xE7\xE3oHit_1"
+  - first:
+      213: 8548529917448289891
+    second: "Anima\xE7\xE3oHit_2"
+  - first:
+      213: 3742088205819835642
+    second: "Anima\xE7\xE3oHit_3"
+  - first:
+      213: -3202327806588789372
+    second: "Anima\xE7\xE3oHit_4"
+  - first:
+      213: -8207055238287828501
+    second: "Anima\xE7\xE3oHit_5"
+  - first:
+      213: 8652520843146283913
+    second: "Anima\xE7\xE3oHit_6"
+  - first:
+      213: 1731351394237017781
+    second: "Anima\xE7\xE3oHit_7"
+  - first:
+      213: 3307969106933378956
+    second: "Anima\xE7\xE3oHit_8"
+  - first:
+      213: -347375485928216222
+    second: "Anima\xE7\xE3oHit_9"
+  - first:
+      213: -4701953596698133908
+    second: "Anima\xE7\xE3oHit_10"
+  - first:
+      213: -373186741996769244
+    second: "Anima\xE7\xE3oHit_11"
+  - first:
+      213: -5504823417595455175
+    second: "Anima\xE7\xE3oHit_12"
+  - first:
+      213: 7889040996239205942
+    second: "Anima\xE7\xE3oHit_13"
+  - first:
+      213: 143641069506025667
+    second: "Anima\xE7\xE3oHit_14"
+  - first:
+      213: -7709612845920864027
+    second: "Anima\xE7\xE3oHit_15"
+  - first:
+      213: 1217988193476915614
+    second: "Anima\xE7\xE3oHit_16"
+  - first:
+      213: 7980818437262211717
+    second: "Anima\xE7\xE3oHit_17"
+  - first:
+      213: 7001499505642506269
+    second: "Anima\xE7\xE3oHit_18"
+  - first:
+      213: -3993099132014855561
+    second: "Anima\xE7\xE3oHit_19"
+  - first:
+      213: 5972642004798651442
+    second: "Anima\xE7\xE3oHit_20"
+  - first:
+      213: 4581427225808385652
+    second: "Anima\xE7\xE3oHit_21"
+  - first:
+      213: -5853833444625671603
+    second: "Anima\xE7\xE3oHit_22"
+  - first:
+      213: -50482000970349982
+    second: "Anima\xE7\xE3oHit_23"
+  - first:
+      213: -8197441506531764610
+    second: "Anima\xE7\xE3oHit_24"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_0"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2771
+        width: 335
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0e56b4834ae8a30800000000000000
+      internalID: 4219490462582825139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_1"
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 2771
+        width: 322
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fc19794c6a446b0800000000000000
+      internalID: -5312938297103626442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_2"
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 2770
+        width: 303
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36efd49faaa72a670800000000000000
+      internalID: 8548529917448289891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_3"
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 2769
+        width: 284
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4f11295619ee330800000000000000
+      internalID: 3742088205819835642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_4"
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2322
+        width: 269
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d5be993db0f83d0800000000000000
+      internalID: -3202327806588789372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_5"
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 2320
+        width: 256
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be958dd5ebeaa1e80800000000000000
+      internalID: -8207055238287828501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_6"
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 2314
+        width: 276
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bc5632ddde31870800000000000000
+      internalID: 8652520843146283913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_7"
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 2312
+        width: 295
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beefd28beef60810800000000000000
+      internalID: 1731351394237017781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_8"
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1869
+        width: 300
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8feaba506448ed20800000000000000
+      internalID: 3307969106933378956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_9"
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1882
+        width: 285
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269e19506dfdd2bf0800000000000000
+      internalID: -347375485928216222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_10"
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1878
+        width: 254
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6aff66ad1e4fbeb0800000000000000
+      internalID: -4701953596698133908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_11"
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 1877
+        width: 273
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420b568a2ac22daf0800000000000000
+      internalID: -373186741996769244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_12"
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1427
+        width: 331
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93998fa7440fa93b0800000000000000
+      internalID: -5504823417595455175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_13"
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1424
+        width: 377
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636e457fcf08b7d60800000000000000
+      internalID: 7889040996239205942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_14"
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1419
+        width: 365
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8501baac05ef100800000000000000
+      internalID: 143641069506025667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_15"
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 1370
+        width: 310
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e83913c6f3f10590800000000000000
+      internalID: -7709612845920864027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_16"
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 895
+        width: 249
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91bfcc0fc927e010800000000000000
+      internalID: 1217988193476915614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_17"
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 895
+        width: 232
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58af6e1a51091ce60800000000000000
+      internalID: 7980818437262211717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_18"
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 896
+        width: 239
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1805e074b25a2160800000000000000
+      internalID: 7001499505642506269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_19"
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 918
+        width: 244
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a755bee79a598c0800000000000000
+      internalID: -3993099132014855561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_20"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 498
+        width: 242
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cb99a424613e250800000000000000
+      internalID: 5972642004798651442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_21"
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 517
+        width: 242
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476bc96d9cf749f30800000000000000
+      internalID: 4581427225808385652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_22"
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 517
+        width: 262
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a19ce3f7103cea0800000000000000
+      internalID: -5853833444625671603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_23"
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 519
+        width: 275
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2628c9833e6ac4ff0800000000000000
+      internalID: -50482000970349982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3oHit_24"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 73
+        width: 283
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e769128b166dc3e80800000000000000
+      internalID: -8197441506531764610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Anima\xE7\xE3oHit_0": 4219490462582825139
+      "Anima\xE7\xE3oHit_1": -5312938297103626442
+      "Anima\xE7\xE3oHit_10": -4701953596698133908
+      "Anima\xE7\xE3oHit_11": -373186741996769244
+      "Anima\xE7\xE3oHit_12": -5504823417595455175
+      "Anima\xE7\xE3oHit_13": 7889040996239205942
+      "Anima\xE7\xE3oHit_14": 143641069506025667
+      "Anima\xE7\xE3oHit_15": -7709612845920864027
+      "Anima\xE7\xE3oHit_16": 1217988193476915614
+      "Anima\xE7\xE3oHit_17": 7980818437262211717
+      "Anima\xE7\xE3oHit_18": 7001499505642506269
+      "Anima\xE7\xE3oHit_19": -3993099132014855561
+      "Anima\xE7\xE3oHit_2": 8548529917448289891
+      "Anima\xE7\xE3oHit_20": 5972642004798651442
+      "Anima\xE7\xE3oHit_21": 4581427225808385652
+      "Anima\xE7\xE3oHit_22": -5853833444625671603
+      "Anima\xE7\xE3oHit_23": -50482000970349982
+      "Anima\xE7\xE3oHit_24": -8197441506531764610
+      "Anima\xE7\xE3oHit_3": 3742088205819835642
+      "Anima\xE7\xE3oHit_4": -3202327806588789372
+      "Anima\xE7\xE3oHit_5": -8207055238287828501
+      "Anima\xE7\xE3oHit_6": 8652520843146283913
+      "Anima\xE7\xE3oHit_7": 1731351394237017781
+      "Anima\xE7\xE3oHit_8": 3307969106933378956
+      "Anima\xE7\xE3oHit_9": -347375485928216222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -14,6 +14,16 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
     [Tooltip("Distância máxima que o player pode estar da tela para interagir")]
     public float distanciaMaxima = 3.0f;
 
+    [Header("Sistema de Bloqueio (Cadeado)")]
+    [Tooltip("Imagem UI do cadeado no canto do botão/painel")]
+    public Image imagemCadeado;
+
+    [Tooltip("Estado do bloqueio (true = Trancado/Vermelho, false = Liberado/Verde)")]
+    public bool estaTrancada = true;
+
+    public Color corLiberado = Color.green;
+    public Color corTrancado = Color.red;
+
     [Header("Mensagem da Interface")]
     public string mensagemDica = "[F] Interagir com Painel";
 
@@ -26,18 +36,18 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         botaoUI = GetComponent<Button>();
         cameraPrincipal = Camera.main;
 
-        // Inscreve o evento de clique nativo da UI do Canvas
         if (botaoUI != null)
         {
             botaoUI.onClick.AddListener(PressionarBotao);
         }
+
+        AtualizarStatusCadeado();
     }
 
     void Update()
     {
         ChecarVisaoPlayer();
 
-        // Aciona o botão ao apertar a tecla configurada (F)
         if (olhandoParaOBotao && Input.GetKeyDown(teclaInteracao))
         {
             PressionarBotao();
@@ -53,22 +63,17 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, distanciaMaxima))
         {
-            // Verifica se o Raycast atingiu este botão ou algum filho dele
             if (hit.transform == transform || hit.transform.IsChildOf(transform))
             {
                 if (!olhandoParaOBotao)
                 {
                     olhandoParaOBotao = true;
-                    if (InteractionUI.Instance != null)
-                    {
-                        InteractionUI.Instance.Mostrar(mensagemDica);
-                    }
+                    AtualizarMensagemDica();
                 }
                 return;
             }
         }
 
-        // Se o raio deixou de atingir o botão, esconde o texto de UI
         if (olhandoParaOBotao)
         {
             olhandoParaOBotao = false;
@@ -79,8 +84,53 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         }
     }
 
+    private void AtualizarMensagemDica()
+    {
+        if (InteractionUI.Instance == null) return;
+
+        if (estaTrancada)
+        {
+            if (InventorySystem.Instance != null && InventorySystem.Instance.cartaoEquipado)
+            {
+                InteractionUI.Instance.Mostrar("<color=green>[F]</color> Destrancar cadeado (Cartão Equipado)");
+            }
+            else
+            {
+                InteractionUI.Instance.Mostrar("<color=red>[BLOQUEADO]</color> Trancado! Equipe o Cartão LOTO no [TAB]");
+            }
+        }
+        else
+        {
+            InteractionUI.Instance.Mostrar(mensagemDica);
+        }
+    }
+
     public void PressionarBotao()
     {
+        // Se estiver trancado
+        if (estaTrancada)
+        {
+            // Tenta destrancar se o cartão estiver equipado
+            if (InventorySystem.Instance != null && InventorySystem.Instance.cartaoEquipado)
+            {
+                DefinirTrancamento(false);
+                AtualizarMensagemDica();
+
+                if (InteractionUI.Instance != null)
+                    InteractionUI.Instance.Mostrar("<color=green>[LOTO]</color> Cadeado destrancado com sucesso!");
+
+                Debug.Log("<color=green>[LOTO]</color> Cadeado do painel foi aberto!");
+            }
+            else
+            {
+                Debug.LogWarning("<color=red>[LOTO]</color> O botão está trancado! Equipe o cartão no TAB.");
+                if (InteractionUI.Instance != null)
+                    InteractionUI.Instance.Mostrar("<color=red>[BLOQUEADO]</color> Trancado! Equipe o Cartão LOTO no [TAB]");
+            }
+            return;
+        }
+
+        // Se já estiver destrancado, desliga a energia
         if (objetoEnergiaTransform == null)
         {
             Debug.LogError($"<color=red>[PAINEL UI]</color> Nenhum objeto de energia foi associado ao botão em '{gameObject.name}'!");
@@ -100,9 +150,22 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         }
     }
 
+    public void DefinirTrancamento(bool trancar)
+    {
+        estaTrancada = trancar;
+        AtualizarStatusCadeado();
+    }
+
+    private void AtualizarStatusCadeado()
+    {
+        if (imagemCadeado != null)
+        {
+            imagemCadeado.color = estaTrancada ? corTrancado : corLiberado;
+        }
+    }
+
     private void OnDisable()
     {
-        // Garante que o texto suma se o botão for desativado na cena
         if (olhandoParaOBotao && InteractionUI.Instance != null)
         {
             InteractionUI.Instance.Esconder();

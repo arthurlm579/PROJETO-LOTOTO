@@ -250,17 +250,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2899225115039594121}
-  m_LocalRotation: {x: -0.002970922, y: -0.92961776, z: 0.36843714, w: 0.007496052}
-  m_LocalPosition: {x: 0, y: 0, z: 0.074}
+  m_LocalRotation: {x: -0.0070500756, y: -0.92964375, z: 0.36838174, w: -0.0027936713}
+  m_LocalPosition: {x: 0, y: 0, z: 0.059}
   m_LocalScale: {x: 0.0011, y: 0.0011, z: 0.0011}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 49338829905705032}
+  - {fileID: 7840213728298578337}
   m_Father: {fileID: 1097491887835074692}
-  m_LocalEulerAnglesHint: {x: 43.233, y: -178.732, z: 0.869}
+  m_LocalEulerAnglesHint: {x: 43.233, y: -180, z: 0.869}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.016, y: -0.093}
+  m_AnchoredPosition: {x: -0.017, y: -0.106}
   m_SizeDelta: {x: 1320, y: 692}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &539518912834930895
@@ -285,7 +286,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!114 &8388464876716895144
 MonoBehaviour:
@@ -439,6 +440,81 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &6077119621235850697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7840213728298578337}
+  - component: {fileID: 6372686869691041219}
+  - component: {fileID: 3472082090906423897}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7840213728298578337
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077119621235850697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8770204994355273375}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 537, y: 281}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6372686869691041219
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077119621235850697}
+  m_CullTransparentMesh: 1
+--- !u!114 &3472082090906423897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077119621235850697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9858491, b: 0.9858491, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ddfe76cfdc75def4789d2575d36e8b5a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6430131392272228592
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,6 +838,11 @@ MonoBehaviour:
   objetoEnergiaTransform: {fileID: 0}
   teclaInteracao: 102
   distanciaMaxima: 4.54
+  imagemCadeado: {fileID: 3472082090906423897}
+  estaTrancada: 1
+  corLiberado: {r: 0, g: 1, b: 0, a: 1}
+  corTrancado: {r: 1, g: 0, b: 0, a: 1}
+  mensagemDica: '[F] Interagir com Painel'
 --- !u!65 &8403421964418874102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -782,7 +863,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 160.96, y: 29.74, z: 0.26}
-  m_Center: {x: -0.00000023551785, y: -0.00015756041, z: 0.5000479}
+  m_Center: {x: -0.00000023551785, y: -0.00015756041, z: -1.4}
 --- !u!1 &7848633714202415224
 GameObject:
   m_ObjectHideFlags: 0

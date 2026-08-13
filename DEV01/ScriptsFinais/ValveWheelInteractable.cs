@@ -16,6 +16,13 @@ public class ValveWheelInteractable : MonoBehaviour
     [Header("Referências Visuais")]
     public Transform wheelTransform;
 
+    [Header("Sistema de Bloqueio Físico (LOTO)")]
+    [Tooltip("Objeto 3D da capa/cadeado de proteção que envolve a válvula")]
+    public GameObject capaBloqueioVisual;
+
+    [Tooltip("Indica se a válvula está travada fisicamente")]
+    public bool estaTrancada = true;
+
     [Header("Controle de Teclas (Apenas Q e E)")]
     public KeyCode rotateLeftKey = KeyCode.Q;
     public KeyCode rotateRightKey = KeyCode.E;
@@ -43,7 +50,6 @@ public class ValveWheelInteractable : MonoBehaviour
     {
         if (wheelTransform == null) wheelTransform = transform;
 
-        // Procura automaticamente o Player pela Tag caso não esteja atribuído no Inspector
         if (playerTransform == null)
         {
             GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
@@ -56,30 +62,52 @@ public class ValveWheelInteractable : MonoBehaviour
         initialWheelRotation = wheelTransform.localRotation;
         currentRotation = startsOpen ? maxRotation : minRotation;
         ApplyWheelRotation();
+
+        AtualizarVisualBloqueio();
     }
 
     void Update()
     {
         if (playerTransform == null) return;
 
-        // Calcula a distância do Player
         float distanciaAtual = Vector3.Distance(transform.position, playerTransform.position);
 
         if (distanciaAtual <= distanciaInteracao)
         {
             playerEstaPerto = true;
 
-            // Exibe a dica na tela enquanto o jogador estiver perto
-            if (InteractionUI.Instance != null)
+            if (estaTrancada)
             {
-                InteractionUI.Instance.Mostrar("Pressione 'Q' ou 'E' para girar a válvula");
-            }
+                // Se estiver trancada, verifica se o jogador está com o Cartão LOTO equipado no inventário
+                if (InventorySystem.Instance != null && InventorySystem.Instance.cartaoEquipado)
+                {
+                    if (InteractionUI.Instance != null)
+                        InteractionUI.Instance.Mostrar("<color=green>[F]</color> Remover capa de proteção (Cartão Equipado)");
 
-            HandleValveRotation();
+                    // Tecla F remove a capa de proteção
+                    if (Input.GetKeyDown(KeyCode.F))
+                    {
+                        DefinirTrancamento(false);
+                        Debug.Log("<color=green>[LOTO]</color> Capa de proteção removida com o Cartão LOTO!");
+                    }
+                }
+                else
+                {
+                    if (InteractionUI.Instance != null)
+                        InteractionUI.Instance.Mostrar("<color=red>[BLOQUEADO]</color> Trancado! Equipe o Cartão LOTO no [TAB]");
+                }
+            }
+            else
+            {
+                if (InteractionUI.Instance != null)
+                {
+                    InteractionUI.Instance.Mostrar("Pressione 'Q' ou 'E' para girar a válvula");
+                }
+                HandleValveRotation();
+            }
         }
         else
         {
-            // Esconde a dica quando o jogador se afasta
             if (playerEstaPerto)
             {
                 playerEstaPerto = false;
@@ -93,9 +121,10 @@ public class ValveWheelInteractable : MonoBehaviour
 
     void HandleValveRotation()
     {
+        if (estaTrancada) return;
+
         float input = 0f;
 
-        // Aceita EXCLUSIVAMENTE as teclas Q e E
         if (Input.GetKey(rotateLeftKey)) input -= 1f;
         if (Input.GetKey(rotateRightKey)) input += 1f;
 
@@ -156,6 +185,20 @@ public class ValveWheelInteractable : MonoBehaviour
         else
         {
             Debug.LogError($"<color=red>[ERRO]</color> O objeto '{objetoEnergiaTransform.name}' não possui um script de energia!");
+        }
+    }
+
+    public void DefinirTrancamento(bool trancar)
+    {
+        estaTrancada = trancar;
+        AtualizarVisualBloqueio();
+    }
+
+    private void AtualizarVisualBloqueio()
+    {
+        if (capaBloqueioVisual != null)
+        {
+            capaBloqueioVisual.SetActive(estaTrancada);
         }
     }
 

@@ -52,20 +52,25 @@ public class InventorySystem : MonoBehaviour
         if (!temCartaoDesbloqueio)
         {
             Debug.LogWarning("[INVENTÁRIO] Você ainda não coletou o cartão!");
+            if (InteractionUI.Instance != null)
+            {
+                InteractionUI.Instance.MostrarPorTempo("<color=red>[INVENTÁRIO]</color> Você não possui o Cartão LOTO!", 2.0f);
+            }
             return;
         }
 
         cartaoEquipado = !cartaoEquipado;
 
-        string status = cartaoEquipado ? "EQUIPADO" : "DESEQUIPADO";
-        Debug.Log($"<color=yellow>[INVENTÁRIO]</color> Cartão LOTO {status}!");
+        string statusText = cartaoEquipado ? "<color=green>Cartão LOTO Equipado!</color>" : "<color=yellow>Cartão LOTO Desequipado!</color>";
 
+        // Mostra na tela por 2.5 segundos e depois some sozinho!
         if (InteractionUI.Instance != null)
         {
-            InteractionUI.Instance.Mostrar($"Cartão LOTO: {status}");
+            InteractionUI.Instance.MostrarPorTempo(statusText, 2.5f);
         }
-    }
 
+        Debug.Log($"[INVENTÁRIO] Cartão LOTO: {cartaoEquipado}");
+    }
     // Função para pegar o cartão no cenário (se quiser colocar um cartão numa mesa para pegar)
     public void ColetarCartao()
     {

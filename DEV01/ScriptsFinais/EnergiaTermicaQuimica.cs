@@ -6,10 +6,14 @@ public class EnergiaTermicaQuimica : EnergiaBase
     [Header("Configurações de Partículas")]
     [SerializeField] private ParticleSystem fumaca;
 
+    [Header("Configurações de Áudio")]
+    [Tooltip("Arraste o AudioSource com o som do vazamento/vapor em loop")]
+    [SerializeField] private AudioSource somVazamento;
+
     [Header("Configurações de UI")]
-    [SerializeField] private Image imagemAlarme; // Arraste a imagem vermelha aqui
+    [SerializeField] private Image imagemAlarme;
     [SerializeField] private float velocidadepulso = 5f;
-    [SerializeField] private float alphaMaximo = 0.4f; // Intensidade máxima do vermelho
+    [SerializeField] private float alphaMaximo = 0.4f;
 
     [Header("Configurações do Botão/Painel")]
     [SerializeField] private Renderer botaoRenderer;
@@ -17,23 +21,19 @@ public class EnergiaTermicaQuimica : EnergiaBase
 
     void Start()
     {
-        // Define o nome do tipo para os logs automáticos do GameManager
         tipoDefinido = "Energia Térmica / Química";
 
-        // Garante que o alarme visual comece ativo se a energia estiver ligada
         if (imagemAlarme != null)
         {
             imagemAlarme.enabled = _energiaAtiva;
         }
 
-        // NOVIDADE: Verifica o estado inicial das partículas ao começar o jogo
-        AtualizarParticulas();
+        AtualizarSonsEParticulas();
     }
 
     void Update()
     {
-        // Enquanto a energia estiver ativa (não resolvida), mantém o efeito de piscar na tela
-        AtualizarParticulas();
+        AtualizarSonsEParticulas();
 
         if (_energiaAtiva)
         {
@@ -52,29 +52,23 @@ public class EnergiaTermicaQuimica : EnergiaBase
         }
     }
 
-    // Sobrescreve o método padrão de desligamento da EnergiaBase
     public override void Desligar()
     {
         if (_bloqueada) return;
 
         if (_energiaAtiva)
         {
-            _energiaAtiva = false; // Atualiza o estado lógico na EnergiaBase
+            _energiaAtiva = false;
 
-            // Chamamos a função para parar as partículas imediatamente
-            AtualizarParticulas();
+            AtualizarSonsEParticulas();
 
-            // Muda a cor do botão físico para verde (seguro)
             if (botaoRenderer != null) botaoRenderer.material.color = corSegura;
-
-            // Desliga a overlay vermelha piscando na tela do jogador
             if (imagemAlarme != null) imagemAlarme.enabled = false;
 
             Debug.Log($"<color=orange>{nomeEnergia}</color> {tipoDefinido} isolada e vazamento interrompido!");
         }
     }
 
-    // Sobrescreve o método de bloqueio para o padrão do console
     public override void Bloquear()
     {
         if (!_energiaAtiva)
@@ -84,20 +78,31 @@ public class EnergiaTermicaQuimica : EnergiaBase
         }
     }
 
-    // NOVIDADE: Função dedicada a controlar o ciclo de vida do Particle System
-    private void AtualizarParticulas()
+    private void AtualizarSonsEParticulas()
     {
+        // Controle de Partículas
         if (fumaca != null)
         {
             if (_energiaAtiva)
             {
-                // Se a energia está ativa, o gás/fumaça deve sair
                 if (!fumaca.isPlaying) fumaca.Play();
             }
             else
             {
-                // Se a energia foi desligada, a fumaça para de sair imediatamente
                 if (fumaca.isPlaying) fumaca.Stop();
+            }
+        }
+
+        // Controle de Áudio (Novo)
+        if (somVazamento != null)
+        {
+            if (_energiaAtiva)
+            {
+                if (!somVazamento.isPlaying) somVazamento.Play();
+            }
+            else
+            {
+                if (somVazamento.isPlaying) somVazamento.Stop();
             }
         }
     }

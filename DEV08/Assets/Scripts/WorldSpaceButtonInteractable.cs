@@ -4,28 +4,22 @@ using UnityEngine.UI;
 public class WorldSpaceButtonInteractable : MonoBehaviour
 {
     [Header("Conexão com Sistema de Energia")]
-    [Tooltip("Arraste aqui o GameObject da cena que possui o script de energia")]
     public Transform objetoEnergiaTransform;
 
     [Header("Configuração de Interação por Raycast")]
-    [Tooltip("Tecla utilizada para pressionar o botão quando olhar para ele")]
     public KeyCode teclaInteracao = KeyCode.F;
-
-    [Tooltip("Distância máxima que o player pode estar da tela para interagir")]
     public float distanciaMaxima = 3.0f;
 
     [Header("Sistema de Bloqueio (Cadeado)")]
-    [Tooltip("Imagem UI do cadeado no canto do botão/painel")]
     public Image imagemCadeado;
+    public bool estaTrancada = false;
 
-    [Tooltip("Estado do bloqueio (true = Trancado/Vermelho, false = Liberado/Verde)")]
-    public bool estaTrancada = true;
+    [Header("Validação de Tranca Correta")]
+    [Tooltip("Escolha qual é a tranca correta para este Painel Elétrico")]
+    public TipoTranca trancaCorreta = TipoTranca.BloqueioEletrico;
 
     public Color corLiberado = Color.green;
     public Color corTrancado = Color.red;
-
-    [Header("Mensagem da Interface")]
-    public string mensagemDica = "[F] Interagir com Painel";
 
     private Button botaoUI;
     private Camera cameraPrincipal;
@@ -36,10 +30,7 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         botaoUI = GetComponent<Button>();
         cameraPrincipal = Camera.main;
 
-        if (botaoUI != null)
-        {
-            botaoUI.onClick.AddListener(PressionarBotao);
-        }
+        if (botaoUI != null) botaoUI.onClick.AddListener(PressionarBotao);
 
         AtualizarStatusCadeado();
     }
@@ -65,11 +56,8 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         {
             if (hit.transform == transform || hit.transform.IsChildOf(transform))
             {
-                if (!olhandoParaOBotao)
-                {
-                    olhandoParaOBotao = true;
-                    AtualizarMensagemDica();
-                }
+                if (!olhandoParaOBotao) olhandoParaOBotao = true;
+                AtualizarMensagemDica();
                 return;
             }
         }
@@ -77,10 +65,7 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         if (olhandoParaOBotao)
         {
             olhandoParaOBotao = false;
-            if (InteractionUI.Instance != null)
-            {
-                InteractionUI.Instance.Esconder();
-            }
+            if (InteractionUI.Instance != null) InteractionUI.Instance.Esconder();
         }
     }
 
@@ -88,65 +73,82 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
     {
         if (InteractionUI.Instance == null) return;
 
-        if (estaTrancada)
+        bool cartaoEquipado = (InventorySystem.Instance != null && InventorySystem.Instance.cartaoEquipado);
+
+        if (cartaoEquipado)
         {
-            if (InventorySystem.Instance != null && InventorySystem.Instance.cartaoEquipado)
-            {
-                InteractionUI.Instance.Mostrar("<color=green>[F]</color> Destrancar cadeado (Cartão Equipado)");
-            }
-            else
-            {
-                InteractionUI.Instance.Mostrar("<color=red>[BLOQUEADO]</color> Trancado! Equipe o Cartão LOTO no [TAB]");
-            }
+            string acaoTexto = estaTrancada ? "Remover Cadeado LOTO" : "Escolher Cadeado LOTO";
+            InteractionUI.Instance.Mostrar($"<color=green>[F]</color> {acaoTexto}");
         }
         else
         {
-            InteractionUI.Instance.Mostrar(mensagemDica);
+            if (estaTrancada)
+            {
+                InteractionUI.Instance.Mostrar("<color=red>[BLOQUEADO]</color> Trancado! Equipe o Cartão no [TAB]");
+            }
+            else
+            {
+                InteractionUI.Instance.Mostrar("[F] Pressionar Botão do Painel");
+            }
         }
     }
 
     public void PressionarBotao()
     {
-        // Se estiver trancado
-        if (estaTrancada)
+        bool cartaoEquipado = (InventorySystem.Instance != null && InventorySystem.Instance.cartaoEquipado);
+
+        // Se está com o cartão equipado
+        if (cartaoEquipado)
         {
-            // Tenta destrancar se o cartão estiver equipado
-            if (InventorySystem.Instance != null && InventorySystem.Instance.cartaoEquipado)
+            if (estaTrancada)
             {
+                // Se já está trancado, destranca direto
                 DefinirTrancamento(false);
-                AtualizarMensagemDica();
-
                 if (InteractionUI.Instance != null)
-                    InteractionUI.Instance.Mostrar("<color=green>[LOTO]</color> Cadeado destrancado com sucesso!");
-
-                Debug.Log("<color=green>[LOTO]</color> Cadeado do painel foi aberto!");
+                    InteractionUI.Instance.MostrarPorTempo("<color=green>[LOTO]</color> Cadeado removido!", 3.0f);
             }
             else
             {
-                Debug.LogWarning("<color=red>[LOTO]</color> O botão está trancado! Equipe o cartão no TAB.");
-                if (InteractionUI.Instance != null)
-                    InteractionUI.Instance.Mostrar("<color=red>[BLOQUEADO]</color> Trancado! Equipe o Cartão LOTO no [TAB]");
+                // Se está liberado, abre o menu para escolher a tranca!
+                if (MenuSelecaoTrancaUI.Instance != null)
+                {
+                    MenuSelecaoTrancaUI.Instance.AbrirMenu(this);
+                }
             }
             return;
         }
 
-        // Se já estiver destrancado, desliga a energia
-        if (objetoEnergiaTransform == null)
+        if (estaTrancada)
         {
-            Debug.LogError($"<color=red>[PAINEL UI]</color> Nenhum objeto de energia foi associado ao botão em '{gameObject.name}'!");
+            Debug.LogWarning("<color=red>[LOTO]</color> O botão está trancado!");
             return;
         }
 
-        EnergiaBase energia = objetoEnergiaTransform.GetComponent<EnergiaBase>();
-
-        if (energia != null)
+        // Se destrancado e sem o cartão selecionado, aciona a energia
+        if (objetoEnergiaTransform != null)
         {
-            energia.Desligar();
-            Debug.Log($"<color=green>[PAINEL UI]</color> Botão pressionado! Energia '{energia.nomeEnergia}' foi desligada.");
+            EnergiaBase energia = objetoEnergiaTransform.GetComponent<EnergiaBase>();
+            if (energia != null) energia.Desligar();
+        }
+    }
+
+    // Chamado pelo Menu de Seleção após a escolha do botão:
+    public void ValidarETrancar(TipoTranca trancaEscolhida)
+    {
+        if (trancaEscolhida == trancaCorreta)
+        {
+            DefinirTrancamento(true);
+            if (InteractionUI.Instance != null)
+                InteractionUI.Instance.MostrarPorTempo("<color=green>[SUCESSO]</color> Bloqueio Elétrico LOTO aplicado com sucesso!", 3.5f);
+
+            Debug.Log("<color=green>[LOTO]</color> Tranca elétrica correta!");
         }
         else
         {
-            Debug.LogWarning($"<color=yellow>[AVISO]</color> O objeto '{objetoEnergiaTransform.name}' não possui um script derivado de EnergiaBase!");
+            if (InteractionUI.Instance != null)
+                InteractionUI.Instance.MostrarPorTempo("<color=red>[ERRO LOTO]</color> Tipo de tranca incorreto! Painéis elétricos exigem garra/cadeado elétrico.", 4.0f);
+
+            Debug.LogWarning("<color=red>[LOTO]</color> Jogador errou a tranca do painel!");
         }
     }
 
@@ -161,14 +163,6 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         if (imagemCadeado != null)
         {
             imagemCadeado.color = estaTrancada ? corTrancado : corLiberado;
-        }
-    }
-
-    private void OnDisable()
-    {
-        if (olhandoParaOBotao && InteractionUI.Instance != null)
-        {
-            InteractionUI.Instance.Esconder();
         }
     }
 }

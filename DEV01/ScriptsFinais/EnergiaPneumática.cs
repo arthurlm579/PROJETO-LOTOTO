@@ -1,42 +1,38 @@
 using UnityEngine;
 
-public class EnergiaPneumatica : EnergiaBase // Herda de EnergiaBase
+public class EnergiaPneumatica : EnergiaBase
 {
     [Header("Configurações do Gás")]
-    [SerializeField] private ParticleSystem particulaGas; // Arraste o Particle System no Inspector
+    [SerializeField] private ParticleSystem particulaGas;
+
+    [Header("Configurações de Áudio")]
+    [Tooltip("Arraste o AudioSource com o som do ar comprimido/vazamento em loop")]
+    [SerializeField] private AudioSource somArComprimido;
 
     [Header("Animação Simples")]
-    [SerializeField] private Transform volanteValvula; // O objeto que vai girar
+    [SerializeField] private Transform volanteValvula;
     [SerializeField] private float anguloFechado = 90f;
 
     void Start()
     {
-        // Define o nome do tipo para os logs automáticos do GameManager
         tipoDefinido = "Energia Pneumática";
 
-        // Garante que as partículas comecem tocando se a energia estiver ativa
-        if (_energiaAtiva && particulaGas != null)
-        {
-            if (!particulaGas.isPlaying) particulaGas.Play();
-        }
+        // Ativa partículas e áudio se a energia estiver ativa
+        AtualizarEfeitos();
     }
 
-    // Sobrescreve o método padrão de desligamento da EnergiaBase
     public override void Desligar()
     {
         if (_bloqueada) return;
 
         if (_energiaAtiva)
         {
-            _energiaAtiva = false; // Atualiza o estado lógico na EnergiaBase
+            _energiaAtiva = false;
 
-            // Para as partículas de gás
-            if (particulaGas != null && particulaGas.isPlaying)
-            {
-                particulaGas.Stop();
-            }
+            // Interrompe efeitos de partículas e som
+            AtualizarEfeitos();
 
-            // Gira visualmente o volante/válvula
+            // Gira visualmente a válvula
             if (volanteValvula != null)
             {
                 volanteValvula.Rotate(0, anguloFechado, 0);
@@ -46,13 +42,29 @@ public class EnergiaPneumatica : EnergiaBase // Herda de EnergiaBase
         }
     }
 
-    // Sobrescreve o método de bloqueio da EnergiaBase
     public override void Bloquear()
     {
         if (!_energiaAtiva)
         {
             _bloqueada = true;
             Debug.Log($"<color=blue>{nomeEnergia}:</color> Trava física / Cadeado aplicado à válvula pneumática.");
+        }
+    }
+
+    private void AtualizarEfeitos()
+    {
+        // Partículas
+        if (particulaGas != null)
+        {
+            if (_energiaAtiva && !particulaGas.isPlaying) particulaGas.Play();
+            else if (!_energiaAtiva && particulaGas.isPlaying) particulaGas.Stop();
+        }
+
+        // Som
+        if (somArComprimido != null)
+        {
+            if (_energiaAtiva && !somArComprimido.isPlaying) somArComprimido.Play();
+            else if (!_energiaAtiva && somArComprimido.isPlaying) somArComprimido.Stop();
         }
     }
 }

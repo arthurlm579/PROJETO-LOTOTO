@@ -1,0 +1,4 @@
+repository "Aula2_Cenas/uc 8 atividade sla@4674133897677@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -6,13 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Menu.unity
+    guid: 981cd9ecc716c674da74e46b2417a277
   - enabled: 1
-    path: Assets/Scenes/Scenes da Anny/Fase_2_Desafio.unity
-    guid: 7bf86be423bc16c4499358261dc22507
-  - enabled: 1
-    path: Assets/Scenes/Scenes da Anny/Fase_3_Final.unity
-    guid: 0889c442e3b9d7348976ed37dd2c4a00
+    path: Assets/Scenes/Mapa de Teste.unity
+    guid: 2eb2863200a9fea4fa29fac38927b316
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

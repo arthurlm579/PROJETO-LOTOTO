@@ -27,7 +27,7 @@ public class EnergiaHidraulica : EnergiaBase
         }
     }
 
-    void Start()
+   public  void Start ()
     {
         tipoDefinido = "Energia Hidráulica";
 

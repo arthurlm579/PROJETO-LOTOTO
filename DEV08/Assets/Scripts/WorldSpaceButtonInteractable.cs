@@ -1,10 +1,35 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro; // Necessário para TextMeshPro e TextMeshProUGUI
+
+public enum TipoEnergiaPainel
+{
+    Eletrica,
+    Pneumatica,
+    Hidrica,
+    Termica
+}
 
 public class WorldSpaceButtonInteractable : MonoBehaviour
 {
     [Header("Conexão com Sistema de Energia")]
     public Transform objetoEnergiaTransform;
+
+    [Header("Tipo de Energia do Painel")]
+    [Tooltip("Escolha qual tipo de energia este painel controla.")]
+    public TipoEnergiaPainel tipoEnergia = TipoEnergiaPainel.Eletrica;
+
+    [Header("Identificação Visual do Painel (Arraste seu texto aqui)")]
+    [Tooltip("Arraste se for um TextMeshPro (3D ou UI)")]
+    [SerializeField] private TMP_Text textoTextMeshPro;
+
+    [Tooltip("Arraste se for um TextMesh 3D tradicional")]
+    [SerializeField] private TextMesh textoPlaca3D;
+
+    [Tooltip("Arraste se for um Text de UI tradicional")]
+    [SerializeField] private Text textoPlacaUI;
+
+    private string nomeDoTipoEnergia = "Energia";
 
     [Header("Configuração de Interação por Raycast")]
     public KeyCode teclaInteracao = KeyCode.F;
@@ -15,7 +40,6 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
     public bool estaTrancada = false;
 
     [Header("Validação de Tranca Correta")]
-    [Tooltip("Escolha qual é a tranca correta para este Painel Elétrico")]
     public TipoTranca trancaCorreta = TipoTranca.BloqueioEletrico;
 
     public Color corLiberado = Color.green;
@@ -32,6 +56,12 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
 
         if (botaoUI != null) botaoUI.onClick.AddListener(PressionarBotao);
 
+        // Se nada foi arrastado no Inspector, tenta encontrar automaticamente nos filhos
+        if (textoTextMeshPro == null) textoTextMeshPro = GetComponentInChildren<TMP_Text>();
+        if (textoPlaca3D == null) textoPlaca3D = GetComponentInChildren<TextMesh>();
+        if (textoPlacaUI == null) textoPlacaUI = GetComponentInChildren<Text>();
+
+        AtualizarNomeETextoEnergia();
         AtualizarStatusCadeado();
     }
 
@@ -42,6 +72,40 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         if (olhandoParaOBotao && Input.GetKeyDown(teclaInteracao))
         {
             PressionarBotao();
+        }
+    }
+
+    private void AtualizarNomeETextoEnergia()
+    {
+        // Define o texto correspondente ao Enum escolhido no Inspector
+        switch (tipoEnergia)
+        {
+            case TipoEnergiaPainel.Eletrica:
+                nomeDoTipoEnergia = "ENERGIA ELÉTRICA";
+                break;
+            case TipoEnergiaPainel.Pneumatica:
+                nomeDoTipoEnergia = "ENERGIA PNEUMÁTICA";
+                break;
+            case TipoEnergiaPainel.Hidrica:
+                nomeDoTipoEnergia = "ENERGIA HÍDRICA";
+                break;
+            case TipoEnergiaPainel.Termica:
+                nomeDoTipoEnergia = "ENERGIA TÉRMICA";
+                break;
+        }
+
+        // Escreve no campo que estiver preenchido/encontrado
+        if (textoTextMeshPro != null)
+        {
+            textoTextMeshPro.text = nomeDoTipoEnergia;
+        }
+        if (textoPlaca3D != null)
+        {
+            textoPlaca3D.text = nomeDoTipoEnergia;
+        }
+        if (textoPlacaUI != null)
+        {
+            textoPlacaUI.text = nomeDoTipoEnergia;
         }
     }
 
@@ -78,17 +142,17 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         if (cartaoEquipado)
         {
             string acaoTexto = estaTrancada ? "Remover Cadeado LOTO" : "Escolher Cadeado LOTO";
-            InteractionUI.Instance.Mostrar($"<color=green>[F]</color> {acaoTexto}");
+            InteractionUI.Instance.Mostrar($"<color=yellow>[{nomeDoTipoEnergia}]</color>\nPressione <color=green>[F]</color> para {acaoTexto}");
         }
         else
         {
             if (estaTrancada)
             {
-                InteractionUI.Instance.Mostrar("<color=red>[BLOQUEADO]</color> Trancado! Equipe o Cartão no [TAB]");
+                InteractionUI.Instance.Mostrar($"<color=yellow>[{nomeDoTipoEnergia}]</color>\n<color=red>[BLOQUEADO]</color> Equipe o Cartão no [TAB]");
             }
             else
             {
-                InteractionUI.Instance.Mostrar("[F] Pressionar Botão do Painel");
+                InteractionUI.Instance.Mostrar($"<color=yellow>[{nomeDoTipoEnergia}]</color>\n[F] Pressionar Botão");
             }
         }
     }
@@ -97,19 +161,16 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
     {
         bool cartaoEquipado = (InventorySystem.Instance != null && InventorySystem.Instance.cartaoEquipado);
 
-        // Se está com o cartão equipado
         if (cartaoEquipado)
         {
             if (estaTrancada)
             {
-                // Se já está trancado, destranca direto
                 DefinirTrancamento(false);
                 if (InteractionUI.Instance != null)
                     InteractionUI.Instance.MostrarPorTempo("<color=green>[LOTO]</color> Cadeado removido!", 3.0f);
             }
             else
             {
-                // Se está liberado, abre o menu para escolher a tranca!
                 if (MenuSelecaoTrancaUI.Instance != null)
                 {
                     MenuSelecaoTrancaUI.Instance.AbrirMenu(this);
@@ -124,7 +185,6 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
             return;
         }
 
-        // Se destrancado e sem o cartão selecionado, aciona a energia
         if (objetoEnergiaTransform != null)
         {
             EnergiaBase energia = objetoEnergiaTransform.GetComponent<EnergiaBase>();
@@ -132,23 +192,18 @@ public class WorldSpaceButtonInteractable : MonoBehaviour
         }
     }
 
-    // Chamado pelo Menu de Seleção após a escolha do botão:
     public void ValidarETrancar(TipoTranca trancaEscolhida)
     {
         if (trancaEscolhida == trancaCorreta)
         {
             DefinirTrancamento(true);
             if (InteractionUI.Instance != null)
-                InteractionUI.Instance.MostrarPorTempo("<color=green>[SUCESSO]</color> Bloqueio Elétrico LOTO aplicado com sucesso!", 3.5f);
-
-            Debug.Log("<color=green>[LOTO]</color> Tranca elétrica correta!");
+                InteractionUI.Instance.MostrarPorTempo("<color=green>[SUCESSO]</color> Bloqueio aplicado com sucesso!", 3.5f);
         }
         else
         {
             if (InteractionUI.Instance != null)
-                InteractionUI.Instance.MostrarPorTempo("<color=red>[ERRO LOTO]</color> Tipo de tranca incorreto! Painéis elétricos exigem garra/cadeado elétrico.", 4.0f);
-
-            Debug.LogWarning("<color=red>[LOTO]</color> Jogador errou a tranca do painel!");
+                InteractionUI.Instance.MostrarPorTempo($"<color=red>[ERRO LOTO]</color> Tranca incorreta para {nomeDoTipoEnergia}!", 4.0f);
         }
     }
 
